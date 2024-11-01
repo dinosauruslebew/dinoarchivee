@@ -1,0 +1,95 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: 15px;
+  }
+  html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  body.loaded {
+    opacity: 1;
+  }
+
+  .layar-penuh {
+    width: 100%;
+  }
+
+  
+  /* pengaturan header */
+  header {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+    background-image: url(asset/bggg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header .intro p{
+    font-size: 18px;
+  }
+  header .intro {
+    z-index: 100;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 43%;
+  }
+  header .intro h3 {
+    font-size: 40px;
+    margin: 0;
+  }
+  .tombol {
+    background-color: #8c4ffe;
+    height: 40px;
+    line-height: 42px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    font-size: 20px;
+    border-radius: 4px;
+  }
+
+  .tombol:hover{
+    background-color: #6537bb;
+    transform: scale(1.05);
+    transition: 0.3 ease-in;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 50%;
+    z-index: -1;
+  }
+  section {
+    padding: 50px 0px 50px 0px;
+  }
+  section h3 {
+    font-size: 30px;
+  }
+  section h3::after {
+    content: "";
+    border-bottom: 5px solid #c86b85;
+    width: 52px;
+    display: block;
+    margin: 20px auto;
+  }
+  
+
