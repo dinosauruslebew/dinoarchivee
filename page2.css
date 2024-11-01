@@ -49,6 +49,7 @@
     margin: 2%;
     position: relative;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.324);
+    transition: all 0.3s ease;
 }
 
 .card:hover {
