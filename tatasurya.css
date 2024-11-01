@@ -106,8 +106,9 @@
 }
 
 .planet img {
-  width: 100px; /* Atur ukuran gambar sesuai kebutuhan */
+  width: 100px; 
   height: auto;
+  transition: all 0.3s ease;
 }
 
 .planet-name {
